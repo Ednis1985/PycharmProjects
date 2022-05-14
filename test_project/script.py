@@ -9,7 +9,7 @@ sber = round((float(x[3]) / 100) * money)
 print('Накопление за год в банке ТКБ -', (tbk))
 print('Накопление за год в банке СКБ -', (skb))
 print('Накопление за год в банке ВТБ -', (vtb))
-print('Накопление за год в банке СБЕР -', round(sber))
+print('Накопление за год в банке СБЕР -', (sber)
 
 deposit = list({tbk, skb, vtb, sber})
 print(deposit)
